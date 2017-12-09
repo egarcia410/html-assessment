@@ -1,0 +1,45 @@
+body {
+    background-color: #B4DFB6;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+#header {
+    background-color: #EB212E;
+}
+
+.nav-link:hover {
+    color: #08aa89 !important;
+}
+
+.content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title {
+    text-align: center;
+}
+
+.img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #A7DADF;
+    border-radius: 8px;
+    border: 3px solid rgb(114, 206, 214);
+}
+
+img {
+    border-radius: 8px;
+    border: 3px solid rgb(114, 206, 214);  
+}
+
+p.description {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 25px;
+}
+
+.name {
+    font-style: italic;
+    font-weight: 900;
+}

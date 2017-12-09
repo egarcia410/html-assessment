@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!-- HTML / CSS Assessment
+Follow the instructions and place your code in the appropriate section below.
+If you have any clarifying questions, feel free to ask. Good luck!
+
+1. Pull Bootstrap CSS from a CDN
+2. Add a bootstrap navbar. Include a header on the left that points to index.html and three links that point to example1.html, example2.html and example3.html. Those pages do not need to exist.
+3. Override the navbar's background color to any color you'd like. Override the links' hover color to any color you'd like.
+4. Add a section underneath the navbar. Give the section top and bottom padding of 30px. Give the section an h1 tag with any title you'd like.
+5. Add two divs to the section that are each 50% of the width of the section when the screen is over 768px, and 100% the width of the section when the screen is less than 768px. Use only bootstrap classes for this.
+6. Using the Bootstrap documentation, find out how to use the bootstrap classes "container" and "row" to format the two divs as well.
+7. In each div, first include a public domain image that is formatted using bootstrap classes to have a responsive size. Underneath each image, include a p tag with a description of the image. Use other html tags to format the keywords in your description to be italic. -->
+
+
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+    <title>HTML / CSS Assessment</title>
+</head>
+<body>
+    
+    <nav id="header" class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="example1.html">Example1
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="example2.html">Example2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="example3.html">Example3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- End header -->
+
+    <div class="container">
+        <section class="content">
+            <h1 class="title">Merry Christmas!</h1>
+            <div class="row">
+                <div class="img col-12 col-md-6">
+                    <img class="img-fluid" src="img/img1.jpg" alt="Frosty the Snowman">
+                    <p class="description"><span class="name">Frosty</span> the Snowman</p>
+                </div>
+                <div class="img col-12 col-md-6">
+                    <img class="img-fluid" src="img/img2.jpg" alt="Rudolph the Red-Nosed Reindeer">
+                    <p class="description"><span class="name">Rudolph</span> the Red-Nosed Reindeer</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+</html>
